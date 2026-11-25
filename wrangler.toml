@@ -1,10 +1,9 @@
-name = "somsom5-booking"
+name = "somsom7-booking"
 main = "worker.js"
 compatibility_date = "2024-11-01"
 workers_dev = true
 preview_urls = false
 
+# ไม่ใส่ database_id: Wrangler จะสร้าง D1 ให้อัตโนมัติตอน deploy
 [[d1_databases]]
 binding = "DB"
-database_name = "somsom-db"
-database_id = "2cf431ca-3165-4913-b329-517a44942a8c"
